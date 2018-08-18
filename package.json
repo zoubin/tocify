@@ -1,0 +1,32 @@
+{
+  "name": "tocify",
+  "version": "1.0.0",
+  "description": "Build table of contents from markdown directory structure",
+  "main": "index.js",
+  "bin": {
+    "tocify": "bin/tocify.js"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoubin/tocify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoubin/tocify/issues"
+  },
+  "homepage": "https://github.com/zoubin/tocify#readme",
+  "dependencies": {
+    "commander": "^2.17.1",
+    "fs-extra": "^7.0.0",
+    "globby": "^8.0.1",
+    "markdown": "^0.5.0"
+  },
+  "devDependencies": {
+    "tap": "^12.0.1"
+  }
+}
